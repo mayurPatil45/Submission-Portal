@@ -1,5 +1,4 @@
 const User = require('../models/user.model')
-const Assignment = require('../models/assignment.model')
 
 const getAllAdmins = async (req, res) => {
     try {
@@ -15,4 +14,4 @@ const getAllAdmins = async (req, res) => {
     }
 }
 
-module.exports = getAllAdmins;
+module.exports = {getAllAdmins};

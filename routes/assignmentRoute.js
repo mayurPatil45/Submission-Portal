@@ -8,7 +8,7 @@ const {
     getAssignments,
     rejectAssignment,
     updateAssignment
-} = require('../controllers/assignment.controller')
+} = require('../controllers/assignmentController')
 
 const router = express.Router();
 
